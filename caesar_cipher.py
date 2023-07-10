@@ -1,5 +1,6 @@
 alphabet=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
-#direction=input("Hey,Type 'encode' to encrypt , 'decode' to decrypt\n")
+#direction=input("Hey,Type 'encode' to encrypt")
+#direction=input("decode' to decrypt")
 text=input("Enter your message\n").lower()
 shift=int(input("Enter the shift number\n"))
 def encrypt(plain_text,shift_amount):
